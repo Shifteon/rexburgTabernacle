@@ -82,6 +82,10 @@ hr {
     text-align: center;
 }
 
+#about_us {
+    background-color: rgba(160, 152, 146, .7);
+}
+
 /* card styles */
 .card-grid {
     display: grid;
@@ -213,4 +217,12 @@ hr {
     #map {
         height: 300px;
     }
+
+    #etsy-event {
+        height: 700px;
+    }
+}
+
+@media (max-width: 1000px) {
+
 }
