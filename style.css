@@ -222,6 +222,17 @@ hr {
 }
 /* End event */
 
+/* adventure styles */
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-gap: 1em;
+    width: 80%;
+    margin: 5% auto 5% auto;
+    justify-items: center;
+}
+/* end adventure styles */
+
 /* Footer styles */
 #footer-contact {
     background-color: #AAA29D;
@@ -250,7 +261,7 @@ hr {
     }
 
     #about_us {
-        height: 700px;
+        height: 500px;
     }
 
     .about-us-content {
@@ -271,5 +282,60 @@ hr {
         /* margin-right: 25%;
         margin-left: 25%; */
         margin: 0;
+    }
+
+    .social {
+        height: 70%;
+        width: 20%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    #about_us {
+        height: 800px;
+    }
+}
+
+@media (max-width: 575px) {
+    .about_social {
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media (max-width: 780px) {
+    .social {
+        height: 80%;
+        width: 30%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .social {
+        height: 90%;
+        width: 40%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .social {
+        height: 90%;
+        width: 45%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .social {
+        height: 30px;
+        width: 30px;
+        padding: 0;
+    }
+
+    .footer-social {
+        margin-right: 0px;
     }
 }
