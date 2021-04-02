@@ -223,6 +223,10 @@ hr {
 /* End event */
 
 /* adventure styles */
+#adventure-body {
+    
+}
+
 .adventure-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
